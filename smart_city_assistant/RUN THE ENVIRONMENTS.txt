@@ -1,0 +1,16 @@
+Activating the environment
+conda activate venv
+
+PULL OLLAMA
+ollama pull llama3
+
+Activating the folder path 
+cd "D:\Data Science\DS VS Projects\smart_city_assistant"
+
+Activating the RAG Pipeline
+cd "D:\Data Science\DS VS Projects\smart_city_assistant\backend"
+uvicorn backend.main:app --reload
+
+STREAMLIT
+cd "D:\Data Science\DS VS Projects\smart_city_assistant"
+streamlit run frontend/app.py
